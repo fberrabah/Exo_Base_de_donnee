@@ -8,7 +8,6 @@ class Messageview():
 
     def index(self):
         """Display all messages from the database"""
-        #model = messageModel()
         # get the messages from the model
         messages = self.model.read()
         print('Bonjour et bienvenue sur le forum, voici les derniers messages : ')

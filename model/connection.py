@@ -8,7 +8,7 @@ class connection():
     # In this case no host name and password because of my own configuration
     USER = "faridz"
     PORT = "5432"
-    DATABASE = "forum"    
+    DATABASE = "forum"
     def __init__(self):
         # The class stores an instance of pyscopg2 connection and cursor classes
         self.connection = None

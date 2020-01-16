@@ -1,6 +1,5 @@
 from model.connection import *
 from view.messageView import *
-#from model.messageModel import *
 import sys 
 
 
@@ -8,7 +7,6 @@ import sys
 if __name__=='__main__':
     choix=""
     show=Messageview()
-    #show.read()
     show.index()
 
     while choix != "a" or choix != "r" or choix != "q":
